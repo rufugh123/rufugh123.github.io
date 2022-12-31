@@ -326,7 +326,7 @@
             //geojsonLayer.renderer = renderer;
             const ubaby = new GeoJSONLayer
             ({
-                url: "https://rufugh123.github.io/data/usa1.json",
+                url: "data/usa1.json",
                 outFields: ['*'],
                 copyright: "none",
                 //featureReduction: clusterConfig,
@@ -355,7 +355,7 @@
             });
             const ubaby1 = new GeoJSONLayer
             ({
-                url: "https://rufugh123.github.io/data/usa1.json",
+                url: "data/usa1.json",
                 outFields: ['*'],
                 copyright: "none",
                 //featureReduction: clusterConfig,
@@ -388,7 +388,7 @@
            scene.add(ubaby1)
             const csvLayer = new csvlayer({
                         title: "2019-2022年美国发生的暴乱",
-                        url: "https://rufugh123.github.io/data/vioAmerican.csv",
+                        url: "data/vioAmerican.csv",
                         outFields: ['*'],
                         copyright: "none",
                         //featureReduction: clusterConfig,
@@ -429,18 +429,18 @@
                                     {   value:'2020',
                                         symbol: {
                                             type: "picture-marker",
-                                            url: "https://rufugh123.github.io/data/img/horror2020.png"
+                                            url: "data/img/horror2020.png"
                                         },
                                         label:'2020'
                                     },{   value:'2021',
                                     symbol: {
                                         type: "picture-marker",
-                                        url: "https://rufugh123.github.io/data/img/horror2021.png"
+                                        url: "data/img/horror2021.png"
                                     },label:'2021'
                                 },{   value:'2022',
                                     symbol: {
                                         type: "picture-marker",
-                                        url: "https://rufugh123.github.io/data/img/horror2022.png"
+                                        url: "data/img/horror2022.png"
                                     },label:'2022'
                                 }
                                 ]
